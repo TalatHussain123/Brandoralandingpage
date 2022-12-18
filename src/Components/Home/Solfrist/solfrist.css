@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap');
+
+.solfrist {
+    margin-top: 10rem;
+    padding: 0 120px;
+}
+
+.sol_header>span {
+    font-family: NexaBold;
+    font-size: 46.5998px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.sol_fristheading>h2,
+.sol_secheading>h2,
+.sol_thiredheading>h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 220px;
+    color: var(--Primary);
+    line-height: 11.5rem;
+}

@@ -1,0 +1,29 @@
+.problemstatement {
+    margin-top: 10rem;
+}
+
+.fristproblemstatement__text>h2,
+.secproblemstatement__text>h2 {
+    font-family: NexaBold;
+    font-size: 70px;
+}
+
+.problemstatement__text {
+    display: flex;
+    padding: 0px 200px;
+}
+
+.secproblemstatement__text {
+    color: #3F3F3F;
+    opacity: 0.1;
+}
+
+.problemstatement__img>img {
+    width: 400px;
+    height: 400px;
+}
+
+.problemstatement__img {
+    position: relative;
+    bottom: 3rem;
+}

@@ -1,0 +1,30 @@
+.motivation {
+    position: relative;
+    cursor: none;
+}
+
+.motivation__cursor {
+    position: absolute;
+    left: 60%;
+    bottom: 14rem;
+    width: 100px;
+    height: 100px;
+    background-color: #FFFF;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    cursor: none;
+}
+
+.motivation__video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.cursor_icon {
+    font-size: 30px;
+}

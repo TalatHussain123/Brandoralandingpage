@@ -1,0 +1,21 @@
+.Problem {
+    /* position: relative;
+    width: 1006px;
+    height: 100vh;
+    left: 200px;
+    top: 275px; */
+    margin: 15rem 23rem 15rem 14rem;
+}
+
+.fristStoryQoute>h2,
+.secStoryQoute>h2,
+.thiredStoryQoute>h2 {
+    font-family: NexaBold;
+    font-size: 70px;
+}
+
+.fristStoryQoute>h2,
+.thiredStoryQoute>h2 {
+    color: #3F3F3F;
+    opacity: 0.1;
+}

@@ -1,0 +1,43 @@
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+.nav-Content {
+    padding: 40px 60px 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logoImg img {
+    width: 120px;
+}
+
+.navToggle .navBtn .upper,
+.navToggle .navBtn .lower {
+    transition: 0.2s ease;
+    width: 30px;
+    cursor: pointer;
+    display: block;
+    height: 2px;
+    margin-top: 6px;
+    background-color: #000;
+}
+.navBtn:hover > .upper {
+    transform: rotate(46deg);
+    position: relative;
+    bottom: 1px;
+    right: 1px;
+    
+}
+
+.navBtn:hover > .lower {
+    
+    right: 1px;
+    transform: rotate(-49deg);
+    position: relative;
+    bottom: 9px;
+
+}

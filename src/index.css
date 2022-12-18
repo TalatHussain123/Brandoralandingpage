@@ -1,0 +1,39 @@
+:root {
+  --Primary: #07288B;
+  --Secondary: #009AE0;
+  --textBlack1: #232323;
+  --textBlack2:#3F3F3F;
+  --white: #fff;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: NexaLight;
+  src: url('assets/fonts/nexa-light.otf');
+}
+@font-face {
+  font-family: NexaBold;
+  src: url('assets/fonts/nexa-bold.otf');
+}
+@font-face {
+  font-family: GilroyMedium;
+  src: url('assets/fonts/Gilroy-Medium.ttf');
+}
+@font-face {
+  font-family: GilroyRegular;
+  src: url('assets/fonts/Gilroy-Regular.ttf');
+}
+@font-face {
+  font-family: Gallient;
+  src: url('assets/fonts/GallientRegular-eZoMp.ttf');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

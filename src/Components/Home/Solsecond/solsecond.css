@@ -1,0 +1,28 @@
+.solsecond {
+    padding: 12rem 0;
+}
+
+.solsecond__header>h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    color: var(--Primary);
+}
+
+.solsecond__header {
+    display: flex;
+    justify-content: center;
+}
+
+.solsecond__text {
+    margin-top: 60px;
+    font-family: NexaLight;
+    text-transform: capitalize;
+    font-size: 70px;
+    padding: 0 20rem 0 25rem;
+}
+
+#solsecond_Fspan {
+    padding: 0 50px;
+}

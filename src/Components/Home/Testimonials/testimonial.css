@@ -1,0 +1,56 @@
+.testimonial {
+    display: flex;
+}
+
+.testimonail_leftside {
+    padding: 7rem 5rem 0rem 5rem;
+}
+
+.test_clientprofile>h4 {
+    font-family: NexaBold;
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.test_clientprofile>a {
+    text-decoration: none;
+    font-family: NexaLight;
+    font-size: 18px;
+    color: var(--textBlack2);
+}
+
+.testimonial_stars {
+    color: #FFB33E;
+    padding: 1rem 0 0 12rem;
+    font-size: 25px;
+}
+
+.testimonail_header {
+    display: flex;
+}
+
+.testimaonial_review {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    font-family: NexaBold;
+    font-size: 35px;
+    line-height: 41px;
+}
+
+.testimonial_image>img {
+    width: 850px;
+    height: 790px;
+    pointer-events: none;
+}
+
+.testimonial_icons {
+    padding-top: 2.7rem;
+    text-align: center;
+    font-size: 50px;
+    color: var(--textBlack2);
+    opacity: 0.5;
+}
+
+.testimonial_secicon {
+    padding-left: 0.8rem;
+}

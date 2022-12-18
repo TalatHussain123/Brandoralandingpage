@@ -1,0 +1,20 @@
+.experience {
+    text-align: center;
+    padding: 7rem 0 8.6rem 0;
+}
+
+.frist_exptext,
+.last_exptext {
+    font-family: NexaBold;
+    font-size: 65px;
+    text-transform: capitalize;
+}
+
+.experience_heading>h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 260px;
+    color: var(--Primary);
+    line-height: 300px;
+}
