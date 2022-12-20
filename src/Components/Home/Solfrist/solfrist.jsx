@@ -15,7 +15,7 @@ function Solfrist() {
                     <h2>Understand </h2>
                 </div>
                 <div className='sol_thiredheading'>
-                    <h2>Your Pain</h2>
+                    <h2>Your&nbsp;Pain</h2>
                 </div>
             </div>
         </>

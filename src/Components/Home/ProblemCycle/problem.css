@@ -19,3 +19,52 @@
     color: #3F3F3F;
     opacity: 0.1;
 }
+
+
+@media (min-width:320px) and (max-width:481px) {
+    .Problem {
+        margin: 12rem 1rem 16rem 3.5rem;
+    }
+
+    .fristStoryQoute>h2,
+    .secStoryQoute>h2,
+    .thiredStoryQoute>h2 {
+        font-size: 28px;
+    }
+}
+
+@media (min-width:482px) and (max-width:641px) {
+    .Problem {
+        margin: 12rem 0rem 16rem 7rem;
+    }
+
+    .fristStoryQoute>h2,
+    .secStoryQoute>h2,
+    .thiredStoryQoute>h2 {
+        font-size: 38px;
+    }
+}
+
+@media (min-width: 642px) and (max-width:1025px) {
+    .Problem {
+        margin: 12rem 0rem 16rem 7rem;
+    }
+
+    .fristStoryQoute>h2,
+    .secStoryQoute>h2,
+    .thiredStoryQoute>h2 {
+        font-size: 55px;
+    }
+}
+
+@media (min-width:1026px) and (max-width:1281px) {
+    .Problem {
+        margin: 12rem 10rem 16rem 7rem;
+    }
+
+    .fristStoryQoute>h2,
+    .secStoryQoute>h2,
+    .thiredStoryQoute>h2 {
+        font-size: 55px;
+    }
+}
