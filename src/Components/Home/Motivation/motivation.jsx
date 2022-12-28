@@ -1,20 +1,15 @@
 import React, { useRef, useState } from 'react';
 import "./motivation.css";
-import Song from '../video/song.mp4';
-import {BsPlay, BsPause} from 'react-icons/bs';
-
+import { BsPlay, BsPause } from 'react-icons/bs';
 
 function Motivation() {
-
     const myvideo = useRef(null);
-
     const [paused, setPaused] = useState(false);
 
     function handlePlayVideo() {
         if (paused) {
             setPaused(false);
             myvideo.current.play();
-
         } else {
             setPaused(true);
             myvideo.current.pause();
@@ -34,16 +29,15 @@ function Motivation() {
 
 
     return (
-        <div className='motivation' id='motivation' /* onMouseOver={mouseon}*/ onClick={() => { handlePlayVideo() }}>
+        <div className='motivation' id='motivation' /*onMouseOver={mouseon}*/ onClick={() => { handlePlayVideo() }}>
 
-            <video autoPlay muted loop ref={myvideo} className='motivation__video'>  {/*controls*/}
-                <source src={Song} type="video/mp4" />
+            <video autoPlay muted loop ref={myvideo} className='motivation__video'> 
+                <source src={'https://s3.amazonaws.com/clay.global/static/img/reel/reel-min.mp4'} type="video/mp4" />
                 Your browser does not support this video.
             </video>
-
-            {/* <div className='motivation__cursor' id='cursor' >
-                <span>{paused? <BsPlay className='cursor_icon'/>:<BsPause className='cursor_icon' /> }</span>
-            </div> */}
+            <div className='motivation__cursor' id='cursor' >
+                <span>{paused ? <BsPlay className='cursor_icon' /> : <BsPause className='cursor_icon' />}</span>
+            </div>
 
         </div>
     )

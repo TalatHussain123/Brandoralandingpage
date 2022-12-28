@@ -10,48 +10,54 @@ function Contactus() {
                 <div className='Talktext'>
                     <form>
                         <p className='Talktext_p'>Hello, Brandora Team!</p>
-                        <label> My Name Is
+
+                        <label>
+                            My Name Is
                             <input type="text" id='inputwidth'
                                 placeholder="Your Name" />
-                            <label> From
+                            <label>
+
+                                From
                                 <input id='Frominput' type="text"
                                     placeholder="Company" />
                             </label>
                         </label>
+
+
                         <div className='btnlineproperty'>
-                            <label>I’d Like To Discuss
+                            <label>I'd Like To Discuss
                             </label>
-                            <div class="Btns-radio">
-                                <div class="button">
+                            <div className="Btns-radio">
+                                <div className="button">
                                     <input type="radio" id="a25" name="check-substitution-1" />
-                                    <label class="btn btn-default">UI UX</label>
+                                    <label className="btn btn-default">UI UX</label>
                                 </div>
-                                <div class="button">
+                                <div className="button">
                                     <input type="radio" id="a50" name="check-substitution-1" />
-                                    <label class="btn btn-default" >Web Development</label>
+                                    <label className="btn btn-default" >Web Development</label>
                                 </div>
-                                <div class="button">
+                                <div className="button">
                                     <input type="radio" id="a75" name="check-substitution-1" />
-                                    <label class="btn btn-default" >Consultancy</label>
+                                    <label className="btn btn-default" >Consultancy</label>
                                 </div>
-                                <div class="button">
+                                <div className="button">
                                     <input type="radio" id="a100" name="check-substitution-1" />
-                                    <label class="btn btn-default" >Product Design</label>
+                                    <label className="btn btn-default" >Product Design</label>
                                 </div>
-                                <div class="button">
+                                <div className="button">
                                     <input type="radio" id="a125" name="check-substitution-1" />
-                                    <label class="btn btn-default" >Branding</label>
+                                    <label className="btn btn-default" >Branding</label>
                                 </div>
-                                <div class="button">
+                                <div className="button">
                                     <input type="radio" id="a150" name="check-substitution-1" />
-                                    <label class="btn btn-default" >Marketing</label>
+                                    <label className="btn btn-default" >Marketing</label>
                                 </div>
                             </div>
                         </div>
-                        <div>
+                        <div className='project_idea'>
                             <label>Project Idea & Brief
-                                <input
-                                    id='inputwidth'
+                                <textarea
+                                    id='inputwidth2'
                                     type="text"
                                     placeholder="Discription (Optional)"
                                 />
@@ -59,18 +65,18 @@ function Contactus() {
                         </div>
                         <div className='btnlineproperty'>
                             <label>A Budget Of this project is</label>
-                            <div class="Btns-radio">
-                                <div class="button">
+                            <div className="Btns-radio">
+                                <div className="button">
                                     <input type="radio" id="a225" name="check-substitution-2" />
-                                    <label class="btn btn-default"><AiOutlineLeft />500$</label>
+                                    <label className="btn btn-default"><AiOutlineLeft />500$</label>
                                 </div>
-                                <div class="button">
+                                <div className="button">
                                     <input type="radio" id="a250" name="check-substitution-2" />
-                                    <label class="btn btn-default">500$ - 1000$</label>
+                                    <label className="btn btn-default">500$ - 1000$</label>
                                 </div>
-                                <div class="button">
+                                <div className="button">
                                     <input type="radio" id="a275" name="check-substitution-2" />
-                                    <label class="btn btn-default">1000$ - 1500$</label>
+                                    <label className="btn btn-default">1000$ - 1500$</label>
                                 </div>
                             </div>
                         </div>

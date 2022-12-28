@@ -18,3 +18,35 @@
     color: var(--Primary);
     line-height: 300px;
 }
+
+@media(min-width:320px) and (max-width:641px) {
+    .experience {
+        padding: 0rem 0 13rem 0;
+    }
+
+    .frist_exptext,
+    .last_exptext {
+        font-size: 35px;
+    }
+
+    .experience_heading>h2 {
+        font-size: 180px;
+        line-height: 140px;
+    }
+}
+
+@media(min-width:641px) and (max-width:961px) {
+    .experience {
+        padding: 0rem 0 13rem 0;
+    }
+
+    .frist_exptext,
+    .last_exptext {
+        font-size: 45px;
+    }
+
+    .experience_heading>h2 {
+        font-size: 210px;
+        line-height: 180px;
+    }
+}

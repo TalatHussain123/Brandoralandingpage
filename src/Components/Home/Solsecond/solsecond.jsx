@@ -5,12 +5,12 @@ function Solsecond() {
     return (
         <div className='solsecond'>
             <div className='solsecond__header'>
-                <h2>We Understand Business</h2>
+                <h2>We&nbsp;Understand&nbsp;Business</h2>
             </div>
             <div className='solsecond__text'>
-                <span id='solsecond_Fspan'>We consider your </span>
-                <span>Marketing and branding </span>
-                <span>efforts while crafting uX </span>
+                <span id='solsecond_Fspan'>We&nbsp;consider&nbsp;your </span>
+                <span>Marketing&nbsp;and&nbsp;branding </span>
+                <span>efforts&nbsp;while&nbsp;crafting&nbsp;uX </span>
             </div>
         </div>
     )

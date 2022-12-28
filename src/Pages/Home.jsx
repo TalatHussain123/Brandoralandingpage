@@ -61,31 +61,29 @@ function Home() {
 
           </div>
         </div>
-        {/* <div className="LineSvg">
+        <div className="LineSvg">
           <svg ref={svgline} width="1450" height="500" viewBox="0 0 1450 867" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path className='svgPath' strokeDasharray={'3020'} strokeDashoffset={'3020'} d="M1 52.4829C306 -42.8504 806.5 -7.37315 618 194.983C333.394 500.509 559 428.144 704.5 417.5C793.5 410.989 707.4 511.883 381 689.483C294.5 743 251 974.627 822 801.983C1397.63 627.939 1401.5 683.627 1449 714.983" stroke="#07288B" strokeWidth="3" />
           </svg>
-        </div> */}
+        </div>
       </div>
 
       <div className="ProblemCycle">
         <ProblemCycle />
       </div>
-
       <div className='motivation__section'>
         <Motivation />
       </div>
-
       <div className='Problemstatement__section'>
         <Problemstatement />
       </div>
       <div className='Fristsol__section'>
         <Solfrist />
       </div>
-      {/* <div className='Secondsol__section'>
+      <div className='Secondsol__section'>
         <Solsecond />
-      </div> */}
-      {/* <div className='Thiredsol__section'>
+      </div>
+      <div className='Thiredsol__section'>
         <Solthired />
       </div>
       <div className='Experience__section'>
@@ -102,7 +100,7 @@ function Home() {
       </div>
       <div className='Contactus__section'>
         <Contactus />
-      </div> */}
+      </div>
 
     </>
   )

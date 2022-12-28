@@ -1,5 +1,4 @@
-.HeroTagline .secTag h1,
-.forthTag h1 {
+.HeroTagline .secTag h1,.forthTag h1 {
     font-family: NexaBold;
     font-size: 110px;
     color: var(--Secondary);
@@ -7,8 +6,7 @@
     position: relative;
 }
 
-.HeroTagline .firstTag h1,
-.thirdTag h1 {
+.HeroTagline .firstTag h1,.thirdTag h1 {
     font-weight: 100;
     font-family: Gallient;
     font-size: 90px;
@@ -30,26 +28,19 @@
     left: 28%;
     z-index: -9999;
 }
-
 .forthTag h1 {
     color: var(--Primary);
 }
-
 .firstTag {
     position: relative;
     right: 13%;
-
+    
 }
-
-.thirdTag,
-.firstTag,
-.secTag,
-.forthTag {
+.thirdTag,.firstTag,.secTag, .forthTag{
     height: 100%;
     overflow: hidden;
 }
-
-.thirdTag {
+.thirdTag{
     position: relative;
     left: 13%;
 }
@@ -115,7 +106,6 @@ ul.socialsV li.sLinkV a svg:hover {
     border: 1px;
     align-items: center;
 }
-
 
 @media (min-width:320px) and (max-width:961px) {
     .nav-Content {

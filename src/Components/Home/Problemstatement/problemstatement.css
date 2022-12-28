@@ -28,6 +28,7 @@
     bottom: 3rem;
 }
 
+
 @media (min-width:320px) and (max-width:641px) {
     .problemstatement {
         margin: 10rem 0 15rem 0;

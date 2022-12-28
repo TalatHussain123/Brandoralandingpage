@@ -10,14 +10,17 @@
     padding-bottom: 8rem;
 }
 
-#inputwidth {
-    width: 32rem;
+#inputwidth,
+#inputwidth2 {
+    width: 28rem;
     border: none;
     outline: none;
     border-bottom: 1px solid #FFFFFF;
     margin-left: 1.875rem;
     background-color: #232323;
     color: #fff;
+    font-family: 'LibreBaskerville';
+    /* display: flex; */
 }
 
 #Frominput {
@@ -28,6 +31,7 @@
     margin-left: 1.875rem;
     background-color: #232323;
     color: #fff;
+    font-family: 'LibreBaskerville';
 }
 
 p {
@@ -50,6 +54,7 @@ button {
 
 .Btns-radio {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .btn {
@@ -116,4 +121,62 @@ button {
 .Butt {
     position: absolute;
     right: 12rem;
+}
+
+
+@media (min-width:320px) and (max-width:1025px) {
+    .Talktext {
+        padding: 0 0 1rem 0;
+    }
+
+    #inputwidth {
+        width: 190px;
+        margin-left: 0.8rem;
+    }
+
+    #inputwidth2 {
+        width: 70vw;
+        margin-left: 0.8rem;
+    }
+
+    #Frominput {
+        width: 240px;
+        margin-left: 0.8rem;
+    }
+
+    label {
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+    .btnlineproperty {
+        display: inline-block;
+    }
+
+    .Butt {
+        position: static;
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .project_idea {
+        margin-top: 2rem;
+    }
+
+    .button label,
+    .button input {
+        bottom: 5px;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1306px) {
+    .Talktext {
+        padding: 0 0 5rem 3rem;
+    }
+
+    .btnlineproperty {
+        display: inline-block;
+    }
+
 }

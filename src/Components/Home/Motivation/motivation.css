@@ -1,12 +1,11 @@
 .motivation {
     position: relative;
-    cursor: none;
 }
 
 .motivation__cursor {
     position: absolute;
-    /* left: 60%;
-    bottom: 14rem; */
+    left: 50%;
+    top: 50%;
     width: 100px;
     height: 100px;
     background-color: #FFFF;
@@ -16,7 +15,6 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    cursor: none;
 }
 
 .motivation__video {

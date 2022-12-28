@@ -14,6 +14,7 @@ function Testimonial() {
                         <h4>Benbim</h4>
                         <a href='/#' >https://www.fiverr.com/benbim</a>
                     </div>
+
                     <div className='testimonial_stars'>
                         <BsFillStarFill />
                         <BsFillStarFill />
@@ -21,6 +22,7 @@ function Testimonial() {
                         <BsFillStarFill />
                         <BsFillStarFill />
                     </div>
+
                 </div>
                 <div className='testimaonial_review'>
                     <span>Jamal is great. He is always willing to have a call to discuss things,
@@ -30,10 +32,9 @@ function Testimonial() {
                         appreciate testimonial_iconsit and the designs turned out great
                     </span>
                 </div>
-                <div className='testimonial_icons '>
+                <div className='testimonial_icons'>
                     <TfiArrowCircleLeft  />
                     <TfiArrowCircleRight  className='testimonial_secicon'/>
-
                 </div>
 
             </div>
